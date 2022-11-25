@@ -9,7 +9,7 @@ import { AutenticacaoService } from 'src/app/autenticacao/autenticacao.service';
 })
 export class LoginComponent implements OnInit {
 
-  usuario='qualquer coisa...';
+  usuario='';
   senha='';
 
   constructor(private authService:AutenticacaoService, private router:Router) { }
